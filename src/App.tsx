@@ -92,7 +92,7 @@ function App() {
     languages: ["Java", "JavaScript", "TypeScript", "HTML", "CSS", "Python", "SQL"],
     databases: ["MySQL", "MariaDB", "MongoDB", "Redis", "PostgreSQL"],
     techStack: ["Google Cloud", "Oracle Cloud", "Proxmox", "Pterodactyl", "BGP", "Apache", "Nginx", "Docker", "AWS"],
-    specialties: ["System Administration", "Server Development", "Cloud Infrastructure", "Performance Optimization"]
+    specialties: ["System Administration", "Server Development", "Cloud Infrastructure", "Performance Optimization", "Router Configurations", "Cyber Security"]
   };
 
   const services = [
