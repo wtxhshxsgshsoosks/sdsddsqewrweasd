@@ -81,12 +81,6 @@ function App() {
       achievements: ["Peak 600 players", "Learning experience", "Core systems"]
     },
     {
-      name: "MinePool",
-      period: "Aug 2024 - Present",
-      description: "MinePool is my upcoming private project, built for innovation and high performance. It's still in development, but something exciting is on the way",
-      achievements: ["High performance", "Custom features", "Large playerbase"]
-    },
-    {
       name: "BlueMC",
       period: "Dec 2024 - Present",
       description: "Under new ownership, BlueMC thrived with smarter choices, innovative features, and strategic improvements, making it more successful than ever",
