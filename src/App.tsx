@@ -69,6 +69,12 @@ function App() {
 
   const networks = [
     {
+      name: "MCFleet",
+      period: "Nov 2024 - Present",
+      description: "MCFleet is one of my largest and most technically challenging Minecraft networks, reaching a peak of 2,900 concurrent players. This project pushed my expertise in Java development, server-side optimization, large-scale database management, and network security. I was responsible for designing and maintaining core infrastructure systems capable of handling high player concurrency, minimizing latency, and ensuring overall server stability under heavy load.",
+      achievements: ["Achieved 2,900 concurrent players peak", "Advanced Java plugin development and server-side engineering", "Large-scale MySQL and Redis database optimization", "Custom JVM tuning and garbage collection optimizations for high TPS stability", "Implemented network-level DDoS mitigation and security hardening", "Scaled backend infrastructure to support thousands of simultaneous players", "Built internal monitoring, crash diagnostics, and performance profiling tools"]
+    },
+    {
       name: "GodSpunky",
       period: "Aug 2022 - July 2024",
       description: "GodSpunky was the first network to run my configurations and achieve success with a thriving player base, marking a significant milestone in my journey.",
