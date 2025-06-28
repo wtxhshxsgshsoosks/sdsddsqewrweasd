@@ -97,6 +97,11 @@ function App() {
 
   const services = [
     { 
+      icon: <Cpu className="w-5 h-5" />, 
+      text: "Systems Administration",
+      details: "Scalable and maintainable solutions"
+    },
+    { 
       icon: <Code2 className="w-5 h-5" />, 
       text: "Minecraft plugin development",
       details: "Custom plugins, game modes, and core systems"
@@ -120,11 +125,6 @@ function App() {
       icon: <Bot className="w-5 h-5" />, 
       text: "Discord bot development",
       details: "Custom automation and community tools"
-    },
-    { 
-      icon: <Cpu className="w-5 h-5" />, 
-      text: "Systems Administration",
-      details: "Scalable and maintainable solutions"
     },
     { 
       icon: <Video className="w-5 h-5" />, 
