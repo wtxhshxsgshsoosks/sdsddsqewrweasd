@@ -71,8 +71,8 @@ function App() {
     {
       name: "MCFleet",
       period: "Nov 2024 - Present",
-      description: "MCFleet is one of my largest and most technically challenging Minecraft networks, reaching a peak of 2,900 concurrent players. This project pushed my expertise in Java development, server-side optimization, large-scale database management, and network security. I was responsible for designing and maintaining core infrastructure systems capable of handling high player concurrency, minimizing latency, and ensuring overall server stability under heavy load.",
-      achievements: ["Achieved 2,900 concurrent players peak", "Advanced Java plugin development and server-side engineering", "Large-scale MySQL and Redis database optimization", "Custom JVM tuning and garbage collection optimizations for high TPS stability", "Implemented network-level DDoS mitigation and security hardening", "Scaled backend infrastructure to support thousands of simultaneous players", "Built internal monitoring, crash diagnostics, and performance profiling tools"]
+      description: "MCFleet became one of the largest Minecraft networks I’ve handled, peaking at 2,900 players, showcasing expertise in Java, optimization, databases, and network security.",
+      achievements: ["Peak 2,900 players", "Advanced Java & optimizations", "Database & network scaling"]
     },
     {
       name: "GodSpunky",
