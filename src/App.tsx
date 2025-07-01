@@ -55,6 +55,16 @@ function App() {
         "Custom control panel"
       ]
     },
+    {
+      name: "Servitro",
+      period: "Jan 2025 - Jul 2025",
+      description: "Premium and automation based VPS hosting with global reach and performance.",
+      achievements: [
+        "Automated deployment",
+        "High Uptime",
+        "Global Reach"
+      ]
+    }
   ];
 
   const networks = [
