@@ -55,16 +55,6 @@ function App() {
         "Custom control panel"
       ]
     },
-#    {
-#      name: "Servitro LTD",
-#      period: "Jan 2025 - Present",
-#      description: "High-performance VPS and dedicated hosting platform with seamless automated deployment and reliability.",
-#      achievements: [
-#        "Auto-scalable infrastructure",
-#        "Innovative ideas",
-#        "99.5% uptime guarantee"
-#      ]
-#    }
   ];
 
   const networks = [
