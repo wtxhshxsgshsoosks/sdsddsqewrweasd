@@ -71,8 +71,8 @@ function App() {
     {
       name: "MCFleet",
       period: "Nov 2024 - Present",
-      description: "MCFleet became one of the largest Minecraft networks I’ve handled, peaking at 2,900 players, showcasing expertise in Java, optimization, databases, and network security.",
-      achievements: ["Peak 2,900 players", "Advanced Java & optimizations", "Database & network scaling"]
+      description: "MCFleet became one of the largest Minecraft networks I’ve handled, peaking at 5,100 players, showcasing expertise in Java, optimization, databases, and network security.",
+      achievements: ["Peak 5,100 players", "Advanced Java & optimizations", "Database & network scaling"]
     },
     {
       name: "GodSpunky",
