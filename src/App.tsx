@@ -82,7 +82,7 @@ function App() {
     },
     {
       name: "BlueMC",
-      period: "Dec 2024 - Present",
+      period: "Dec 2024 - June 2025",
       description: "Under new ownership, BlueMC thrived with smarter choices, innovative features, and strategic improvements, making it more successful than ever",
       achievements: ["Better Configurations", "High Performance", "Custom in-game features"]
     }
