@@ -27,7 +27,7 @@ const HoverDetail: React.FC<HoverDetailProps> = ({ children, content, title }) =
       let left = triggerRect.left + triggerRect.width / 2 - tooltipRect.width / 2;
 
       if (top < minPadding) {
-        top = Math.min(triggerRect.bottom + gap, viewportHeight - tooltipRect.height - minPadding);
+        top = triggerRect.bottom + gap;
       }
 
       if (left < minPadding) {
@@ -36,13 +36,10 @@ const HoverDetail: React.FC<HoverDetailProps> = ({ children, content, title }) =
         left = viewportWidth - tooltipRect.width - minPadding;
       }
 
-      const finalTop = Math.max(minPadding, Math.min(top, viewportHeight - tooltipRect.height - minPadding));
-      const finalLeft = Math.max(minPadding, Math.min(left, viewportWidth - tooltipRect.width - minPadding));
-
       setTooltipStyle({
         position: 'fixed',
-        top: `${finalTop}px`,
-        left: `${finalLeft}px`,
+        top: `${Math.max(minPadding, top)}px`,
+        left: `${Math.max(minPadding, left)}px`,
         zIndex: 9999,
         pointerEvents: 'none'
       });

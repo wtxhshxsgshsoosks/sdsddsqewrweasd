@@ -124,20 +124,16 @@
     animation: tooltipFadeIn 0.3s ease-out forwards;
     width: clamp(200px, 90vw, 380px);
     max-width: 95vw;
-    max-height: 90vh;
     padding: 1rem;
     word-wrap: break-word;
     overflow-wrap: break-word;
     white-space: normal;
-    overflow: auto;
-    display: block;
   }
 
   @media (max-width: 640px) {
     .hover-detail-tooltip {
       width: calc(100vw - 16px);
       max-width: calc(100vw - 16px);
-      max-height: 50vh;
     }
   }
 
